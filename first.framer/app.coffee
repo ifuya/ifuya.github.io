@@ -16,12 +16,11 @@ Are you stuck? Double click on "Sample Code" below.
 ###
 
 Box.onClick (event, layer) ->
-
 	Box.animate
 		options:
 			time: 1
 			curve: Bezier.ease
-		rotation: 90
+		rotation: 900
 	
 	
 
