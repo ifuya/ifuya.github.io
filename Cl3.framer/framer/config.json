@@ -8,9 +8,9 @@
   "deviceType" : "fullscreen",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
-
+    "Filters" : false
   },
-  "projectId" : "D6BACD2F-12BC-41C3-A83F-D8788EB28FD5",
+  "projectId" : "226B8B61-7ACB-491A-A0DB-F04430D264C2",
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "showBezel" : 0,
