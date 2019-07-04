@@ -45,3 +45,6 @@ button2.onClick ->
 card.on "change:x", ->
 	print card.x
 	
+card.onDrag ->
+	print "dragging"
+	
