@@ -8,15 +8,17 @@ Screen1.onTap ->
 # Screen2.onTap ->
 # 	flow.showNext Screen1
 #滑动到上一个元素
-Screen2.onTap ->
+Screen2.on Events.Tap, ->
 	flow.showPrevious()
 
 nav = new Layer
 	height: 80
 	width: screen.width
 	backgroundColor: "white"
-	
 flow.header = nav
+
+nav.on Events.Click, ->
+
 
 #弹层
 layer = new Layer
