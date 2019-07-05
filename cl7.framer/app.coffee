@@ -1,3 +1,4 @@
+#事件遮挡
 # layer1 = new Layer
 # 	backgroundColor: "green"
 # 	
@@ -7,7 +8,7 @@
 # 	
 # layer1.onTap ->
 # 	print "layer1111"
-	
+# 	
 # layer2.onTap ->
 # 	print "layer2222"
 
