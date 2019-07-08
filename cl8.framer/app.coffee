@@ -1,9 +1,5 @@
-mainScreen.width = 375
-mainScreen.height = 812
-mainScreen.center()
 
 flow = new FlowComponent
-	superLayer: mainScreen
 flow.showNext(Screen1)
 
 Screen1.onTap ->
