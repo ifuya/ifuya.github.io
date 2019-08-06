@@ -10,7 +10,7 @@ CmtBtn.onTapStart (event, layer) ->
 			curve: Bezier.ease
 
 CmtBtn.onTapEnd (event, layer) ->
-		CmtBtn.animate
+	CmtBtn.animate
 		opacity: 0
 		options:
 			time: 0.2
